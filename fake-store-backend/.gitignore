@@ -1,0 +1,21 @@
+# Ignore the virtual environment directory
+venv
+venv/
+fake-store-backend/venv
+fake-store-frontend/venv
+
+node_modules
+node_modules/
+fake-store-backend/node_modules
+fake-store-frontend/node_modules
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+
+# Ignore IDE settings (e.g., for VSCode, PyCharm, etc.)
+.vscode/
+.idea/

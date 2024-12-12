@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+h2, h4 {
+  color: #333; /* Dark gray text */
+}
+
+p {
+  color: #555; /* Medium gray text */
+}
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #555;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.list-group-item {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-success {
+  margin-top: 1rem;
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+h4 {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #444;
+}
+@media (max-width: 768px) {
+  .list-group-item {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .card {
+      margin-bottom: 1.5rem;
+  }
+}
+
