@@ -28,7 +28,7 @@ pip install -r requirements.txt
 In the `fake-store-backend` folder, create a file named `.env` and add:
 
 ```dotenv
-DATABASE_URL=postgresql://postgres:2314@localhost:5432/fake_store
+DATABASE_URL=postgresql://<username>:<password>@<host>:<port>/<database_name>
 SECRET_KEY=your_random_secret_key_here
 ```
 
